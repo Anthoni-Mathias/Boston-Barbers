@@ -1,2 +1,2 @@
 # Boston-Barbers
- Project for Code institute
+ milestone number 2 code instittute
