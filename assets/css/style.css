@@ -26,3 +26,7 @@ html > body {
   font-weight: bold;
   font-size: x-large;
 }
+
+.fa-home, .fa-cut, .fa-image, .fa-calendar, .fa-id-badge {
+  margin-right: 0.5em;
+}
