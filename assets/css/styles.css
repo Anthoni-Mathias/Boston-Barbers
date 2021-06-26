@@ -30,3 +30,8 @@ html > body {
 .fa-home, .fa-cut, .fa-image, .fa-calendar, .fa-id-badge {
   margin-right: 0.5em;
 }
+
+a:hover {
+  color: #3E4945 !important;
+  text-decoration: underline;
+}
