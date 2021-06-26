@@ -11,3 +11,7 @@ html > body {
 .navbar-toggler {
   float: left;
 }
+
+#anchor-navs .nav-link {
+  color: #295C5D;
+}
