@@ -15,3 +15,7 @@ html > body {
 #anchor-navs .nav-link {
   color: #295C5D;
 }
+
+.navbar {
+  background-color: #f0f0f0;
+}
