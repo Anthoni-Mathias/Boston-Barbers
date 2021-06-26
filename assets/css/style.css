@@ -19,3 +19,10 @@ html > body {
 .navbar {
   background-color: #f0f0f0;
 }
+
+.nav-link {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: x-large;
+}
