@@ -57,6 +57,10 @@ a:hover {
 /* Nav + Hero image /*/
 
 /* Menu section */
+.address-opening{
+  text-align: center;
+}
+
 .services-container {
   text-align: center;
   margin-top: 2em;
