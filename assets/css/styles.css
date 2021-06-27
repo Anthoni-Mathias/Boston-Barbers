@@ -130,3 +130,14 @@ p {
   color: #333;
   font-size: 1.2em;
 }
+
+.cart-quantity {
+  width: 35%;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+}
