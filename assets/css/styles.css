@@ -102,3 +102,20 @@ p {
 .fa-shopping-basket {
   margin-right: 0.5em;
 }
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+  width: 100%;
+}
+
+.cart-item {
+  width: 45%;
+  color: #333;
+}
