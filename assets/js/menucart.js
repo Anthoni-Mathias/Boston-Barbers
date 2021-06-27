@@ -1,3 +1,3 @@
-$("beard-button".click(function () {
+$("beard-button").click(function () {
   document.getElementById("beard-button").classList.add("btn-success");
 });
