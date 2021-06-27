@@ -207,8 +207,119 @@
             </div>
         </div>
     </section>
+    <!-- Cart /-->
 
-<!--Scripts-->    
+     <!-- Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org
+https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -->
+    <div id="gallery"></div>
+
+    <section id="gallery-section">
+    <div class="slider-container">
+        <h2 class="gallery-header"><i class="fas fa-image"></i>Gallery</h2>
+        <div class="slide">
+        </div>
+        <div class="slide">
+        </div>
+        <div class="slide">
+        </div>
+        <div class="slide">
+        </div>
+        <div class="slide">
+        </div>
+        <div class="slide">
+        </div>
+    </div>
+    <div class="btn-container">
+        <button type="button" class="prevBtn">
+            prev
+        </button>
+        <button type="button" class="nextBtn">
+            next
+        </button>
+    </div>
+    </section>
+    <!-- Gallery Slider section /-->
+
+    <!-- Book a Hour section -->
+    <div id="book"></div>
+    
+    <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/ -->
+    <section id="book-section">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="booking-form" name="booking-form">
+                        <div class="container book-container">
+                            <div class="row">
+                                <h2 class="book-header"><i class="fas fa-calendar"></i>Book a Hour</h2>
+                            </div>
+                        </div>
+                        <div class="datePicker">
+                            <p><label for="start">Choose a date *</label></p>
+                            <input type="date" id="start" name="trip-start" min="2021-03-25" max="2022-12-31">
+                        </div>
+                        <p class="alert text-center w-responsive mx-auto mb-5" id="booking-msg"></P>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name">Your name *</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email">Your email *</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="number" id="phone" name="phone" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="tableFor" class="form-label">Table for *</label>
+                                    <input type="number" class="form-control" id="tableFor" name="tableFor">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="time" class="form-label">Time *</label>
+                                    <select id="time" class="form-select" name="time">
+                                        <option>Select</option>
+                                        <option>16.00</option>
+                                        <option>16.30</option>
+                                        <option>17.00</option>
+                                        <option>17.30</option>
+                                        <option>18.00</option>
+                                        <option>18.30</option>
+                                        <option>19.00</option>
+                                        <option>19.30</option>
+                                        <option>20.00</option>
+                                        <option>20.30</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <p>* Required fields</p>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-success" id="bookBtn">Book</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Scripts-->    
 <script async src="/assets/js/menucart.js"></script>    
 
 </body>
