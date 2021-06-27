@@ -124,3 +124,9 @@ p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+
+.cart-price {
+  width: 20%;
+  color: #333;
+  font-size: 1.2em;
+}
