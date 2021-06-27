@@ -61,3 +61,8 @@ a:hover {
   text-align: center;
   margin-top: 2em;
 }
+
+.services-header {
+  font-weight: bold;
+  font-size: x-large;
+}
