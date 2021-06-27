@@ -54,5 +54,10 @@ a:hover {
   color: white;
   font-family: "Akaya Telivigala", cursive;
 }
-
 /* Nav + Hero image /*/
+
+/* Menu section */
+.services-container {
+  text-align: center;
+  margin-top: 2em;
+}
