@@ -74,3 +74,8 @@ a:hover {
 #services-section {
   margin-top: 4em;
 }
+
+.services-choice {
+  text-align: center;
+  margin-top: 2em;
+}
