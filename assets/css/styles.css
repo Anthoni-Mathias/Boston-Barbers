@@ -119,3 +119,8 @@ p {
   width: 45%;
   color: #333;
 }
+
+.shop-item-button {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
