@@ -281,6 +281,19 @@ p {
   }
 }
 /* CART /*/
+/* Menu section /*/
+
+/* Gallery section */
+/* Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org */
+.gallery-header {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+#gallery-section {
+  margin-top: 6em;
+}
 
 /* Contact Section */
 #contact-container {
