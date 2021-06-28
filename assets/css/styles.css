@@ -362,7 +362,7 @@ p {
 
 /* footer */
 .p-3 {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .facebook {
@@ -373,4 +373,12 @@ p {
   color: #fff;
   background-color: #55acee;
   border-color: #0d6efd;
+}
+
+.instagram {
+  background-color: #ac2bac !important;
+}
+
+.linkedin {
+  background-color: #0082ca !important;
 }
