@@ -368,3 +368,9 @@ p {
 .facebook {
   background-color: #3b5998 !important;
 }
+
+.twitter {
+  color: #fff;
+  background-color: #55acee;
+  border-color: #0d6efd;
+}
