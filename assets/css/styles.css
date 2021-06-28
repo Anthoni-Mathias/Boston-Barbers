@@ -281,3 +281,10 @@ p {
   }
 }
 /* CART /*/
+
+/* Contact Section */
+#contact-container {
+  text-align: center;
+  margin-top: 6em;
+  max-width: 50em;
+}
