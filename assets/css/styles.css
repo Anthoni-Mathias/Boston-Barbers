@@ -295,6 +295,18 @@ p {
   margin-top: 6em;
 }
 
+.slider-container {
+  border: 5px solid var(--clr-primary-5);
+  width: 80vw;
+  margin: 0 auto;
+  height: 40vh;
+  max-width: 80rem;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
 /* Contact Section */
 #contact-container {
   text-align: center;
