@@ -315,3 +315,15 @@ p {
   border-radius: 2em;
   width: 80%;
 }
+
+.contact {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 25%;
+  top: 20%;
+  width: 50%; 
+  height: 100%; 
+  overflow: auto; 
+}
