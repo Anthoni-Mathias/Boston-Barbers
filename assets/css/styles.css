@@ -357,3 +357,14 @@ p {
   box-shadow: 5px 5px 5px;
   }
 }
+
+/* Contact section */
+
+/* footer */
+.p-3 {
+  background-color: black;
+}
+
+.facebook {
+  background-color: #3b5998 !important;
+}
