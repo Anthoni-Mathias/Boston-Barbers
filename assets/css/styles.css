@@ -301,3 +301,8 @@ p {
   margin-top: 2em;
   padding: 0 12px;
 }
+
+.contact-header {
+  font-weight: bold;
+  font-size: x-large;
+}
