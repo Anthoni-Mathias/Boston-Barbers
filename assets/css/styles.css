@@ -288,3 +288,16 @@ p {
   margin-top: 6em;
   max-width: 50em;
 }
+
+#contact-image {
+  align-items: flex-start;
+}
+
+#contact-section {
+  margin-top: 11em;
+}
+
+.mb-5 {
+  margin-top: 2em;
+  padding: 0 12px;
+}

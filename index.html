@@ -353,12 +353,65 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                 <h2 class="contact-header"><i class="fas fa-id-badge"></i>Contact</h2>
             </div>
             <div class="row" id="contact-image">
-                <img src="/assets/images/contact.jpeg" alt="Barbers Tools">
+                <img src="/assets/images/contact.jpg" alt="Barbers Tools">
             </div>
         </div>
-    </section>
-        <!-- Contact header and image /-->
+         <!-- Contact header and image /-->
+
+         <!-- Contact information and contact Form -->
+
+        <p class="text-center w-responsive mx-auto mb5">
+            Do you have any questions? Please do not hesitate to
+            contact us
+            directly.
+            <br>
+            Our team will come back to you within
+            a matter of hours to help you.
+        </p>
+        <div class="container contact-border">
+            <div class="row justify-content-center">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <p class="alert text-center w-responsive mx-auto" id="msg"></P>
+                    <form id="contactForm" name="myForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-0">
+                                <div class="md-form">
+                                    <label for="contact-name" class="">Your name *</label>
+                                    <input type="text" id="contact-name" name="contact-name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-0">
+                                <div class="md-form">
+                                    <label for="contact-email" class="">Your email *</label>
+                                    <input type="text" id="contact-email" name="contact-email" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="message">Your message *</label>
+                                <textarea id="message" name="message" rows="4"
+                                    class="form-control md-textarea"></textarea>
+                                <div class="text-left text-md-left">
+                                    <p>* Required fields</p>
+                                    <button type="submit" class="btn btn-success">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Contact information and contact Form /-->
+
+            <!-- Modal after completing the form -->
+        </div>
         
+    </section>
+       
+       
+       
+
+
         <!--Scripts-->    
 <script async src="/assets/js/menucart.js"></script>    
 
