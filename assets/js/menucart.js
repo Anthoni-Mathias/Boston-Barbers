@@ -68,3 +68,13 @@ function quantityChanged(event) {
   updateCartTotal();
 
 }
+
+//Get item title and price when add to cart is clicked
+function addToCartClicked(event) {
+  let button = event.target;
+  let shopItem = button.parentElement.parentElement;
+  let title = shopItem.getElementsByClassName('shop-item-title')[0].innerText;
+  let price = shopItem.getElementsByClassName('shop-item-price')[0].innerText;
+  addItemToCart(title, price);
+  updateCartTotal();
+}
