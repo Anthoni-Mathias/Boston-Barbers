@@ -78,3 +78,16 @@ function addToCartClicked(event) {
   addItemToCart(title, price);
   updateCartTotal();
 }
+
+// Add item to cart and show alert when same item tried to added more than once
+function addItemToCart(title, price) {
+  let cartRow = document.createElement('div');
+  cartRow.classList.add('cart-row');
+  let cartItems = document.getElementsByClassName('cart-items')[0];
+  let cartItemNames = cartItems.getElementsByClassName('cart-item-title');
+  for (let i = 0; i < cartItemNames.length; i++) {
+    if (cartItemNames[i].innerText == title) {
+      document.getElementById("cart-msg").classList.add("errorMsg-cart")
+    }
+  }
+}
