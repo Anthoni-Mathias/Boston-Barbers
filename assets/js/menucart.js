@@ -21,6 +21,9 @@ $("beard-button").click(function () {
 </div> `;
 ready();
 });
+
+
+
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready);
 } else {
@@ -46,8 +49,17 @@ function ready() {
   document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
 
-// modal after purchased click
+//Modal after purchase clicked and items removed from cart.
+function purchaseClicked() {
+  document.getElementById("myPurchase").style.display = "block";
+  let cartItems = document.getElementsByClassName('cart-items')[0];
+  while (cartItems.hasChildNodes()) {
+      cartItems.removeChild(cartItems.firstChild);
+  }
+  updateCartTotal();
+}
 
+// closing modal after purchased click
 $(".close").click(function () {
   document.getElementById("myPurchase").style.display = "none";
 });
@@ -111,4 +123,21 @@ function addItemToCart(title, price) {
   cartItems.append(cartRow);
   cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
   cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);      
+}
+
+// Adding cart item price together and updates total amount
+function updateCartTotal() {
+  let cartItemContainer = document.getElementsByClassName('cart-items')[0];
+  let cartRows = cartItemContainer.getElementsByClassName('cart-row');
+  let total = 0;
+  for (let i = 0; i < cartRows.length; i++) {
+      let cartRow = cartRows[i];
+      let priceElement = cartRow.getElementsByClassName('cart-price')[0];
+      let quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0];
+      let price = parseFloat(priceElement.innerText.replace('€', ''));
+      let quantity = quantityElement.value;
+      total = total + (price * quantity);
+  }
+  total = Math.round(total * 100) / 100;
+  document.getElementsByClassName('cart-total-price')[0].innerText = '€' + total;
 }
