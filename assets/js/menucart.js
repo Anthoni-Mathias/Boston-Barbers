@@ -45,3 +45,26 @@ function ready() {
   }
   document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
+
+// modal after purchased click
+
+$(".close").click(function () {
+  document.getElementById("myPurchase").style.display = "none";
+});
+
+//remove item from cart when remove button clicked
+function removeCartItem(event) {
+  let buttonClicked = event.target;
+  buttonClicked.parentElement.parentElement.remove();
+  updateCartTotal();
+}
+
+// Set quantity to 1 if Nan, 0 or negative number is inserted
+function quantityChanged(event) {
+  let input = event.target;
+  if (isNaN(input.value) || input.value <= 0 ) {
+    input.value = 1;
+  }
+  updateCartTotal();
+
+}
