@@ -87,7 +87,28 @@ function addItemToCart(title, price) {
   let cartItemNames = cartItems.getElementsByClassName('cart-item-title');
   for (let i = 0; i < cartItemNames.length; i++) {
     if (cartItemNames[i].innerText == title) {
-      document.getElementById("cart-msg").classList.add("errorMsg-cart")
-    }
+      document.getElementById("cart-msg").classList.add("errorMsg-cart");
+      document.getElementById("cart-msg").innerHTML = "This item is already added to the cart";
+      let findPage = document.getElementById("menu");
+      findPage.scrollIntoView();
+      setTimeout(function () {
+        document.getElementById("cart-msg").classList.remove("errorMsg-cart");
+        document.getElementById("cart-msg").innerHTML = "";
+      }, 2500);
+      return;
+    }    
   }
+  let cartRowContents = `
+        <div class="cart-item cart-column">
+            <span class="cart-item-title">${title}</span>
+        </div>
+        <span class="cart-price cart-column">${price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1">
+            <button class="btn btn-danger" id="removeBtn" type="button">Remove</button>
+        </div>`;
+  artRow.innerHTML = cartRowContents;
+  cartItems.append(cartRow);
+  cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
+  cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);      
 }
