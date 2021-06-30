@@ -63,7 +63,7 @@ $("#beard-button").click(function () {
 });
 
 // Get highlight button and on click change to highlight menu
-// Credit to shakersbarandgrill for some part of the content for highlight menu: https://www.shakersbarandgrill.com/highlight-menu/
+// Credit to kelysbarber for some part of the content for highlight 
 $("#highlight-button").click(function () {
   document.getElementById("highlight-button").classList.add("btn-success");
   const gents = document.getElementById("gents-button");
@@ -209,7 +209,7 @@ $("#gents-button").click(function () {
                         <p>
                             This service includes a consultation, followed by machine back & sides and scissors on top.                           
                         </p>
-                        <span class="shop-item-price">€18 - €20</span>
+                        <span class="shop-item-price">€20</span>
                         <button class="btn btn-primary shop-item-button" type="button">
                             Add to cart
                         </button>
@@ -222,7 +222,7 @@ $("#gents-button").click(function () {
                         <p>
                             Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
                         </p>
-                        <span class="shop-item-price">€20 - €24</span>
+                        <span class="shop-item-price">€24</span>
                         <button class="btn btn-primary shop-item-button" type="button">
                             Add to cart
                         </button>
@@ -237,7 +237,7 @@ $("#gents-button").click(function () {
                         <p>
                             A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
                         </p>
-                        <span class="shop-item-price">€23 - €25</span>
+                        <span class="shop-item-price">€25</span>
                         <button class="btn btn-primary shop-item-button" type="button">
                             Add to cart
                         </button>
