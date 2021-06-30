@@ -1,27 +1,262 @@
-$("beard-button").click(function () {
+$("#beard-button").click(function () {
   document.getElementById("beard-button").classList.add("btn-success");
-  const gentsCut = document.getElementById("gents-haircut");
-  gentsCut.classList.remove("btn-success");
-  const colorHighlight = document.getElementById("color-button");
-  colorHighlight.classList.remove("btn-success");
-  const homeServices = document.getElementById("homeservices-button");
-  homeServices.classList.remove("btn-success");
+  const gents = document.getElementById("gents-button");
+  gents.classList.remove("btn-success");
+  const highlight = document.getElementById("highlight-button");
+  highlight.classList.remove("btn-success");
+  const homeservices = document.getElementById("homeservices-button");
+  homeservices.classList.remove("btn-success");
   document.getElementById("shop-thing").innerHTML = `
   <div class="shop-item">
-    <span class="shop-item-title">Regular Cut</span>
-    <div class="shop-item-details">
-        <p>
-          This service includes a consultation, followed by machine back & sides and scissors on top.                           
-        </p>
-        <span class="shop-item-price">€18 - €20</span>
-        <button class="btn btn-primary shop-item-button" type="button">
-          Add to cart
-        </button>
-    </div>
-</div> `;
-ready();
+                    <span class="shop-item-title">Regular Cut</span>
+                    <div class="shop-item-details">
+                        <p>
+                            This service includes a consultation, followed by machine back & sides and scissors on top.                           
+                        </p>
+                        <span class="shop-item-price">€18 - €20</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Skinfade/Bald fade</span>
+                    <div class="shop-item-details">
+                        <p>
+                            Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
+                        </p>
+                        <span class="shop-item-price">€20 - €24</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">
+                        Scissors Precision cut/ Hot towel tonic  finish                     
+                    </span>
+                    <div class="shop-item-details">
+                        <p>
+                            A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
+                        </p>
+                        <span class="shop-item-price">€23 - €25</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">All over Machine Buzz cut</span>
+                    <div class="shop-item-details">
+                        <p>
+                            Machine all over, no scissors used in this service.                         
+                        </p>
+                        <span class="shop-item-price">€15</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>`;
+  ready();
 });
 
+// Get highlight button and on click change to highlight menu
+// Credit to shakersbarandgrill for some part of the content for highlight menu: https://www.shakersbarandgrill.com/highlight-menu/
+$("#highlight-button").click(function () {
+  document.getElementById("highlight-button").classList.add("btn-success");
+  const gents = document.getElementById("gents-button");
+  gents.classList.remove("btn-success");
+  const beard = document.getElementById("beard-button");
+  beard.classList.remove("btn-success");
+  const homeservices = document.getElementById("homeservices-button");
+  homeservices.classList.remove("btn-success");
+  document.getElementById("shop-thing").innerHTML = `
+  <div class="shop-item">
+  <span class="shop-item-title">Regular Cut</span>
+  <div class="shop-item-details">
+      <p>
+          This service includes a consultation, followed by machine back & sides and scissors on top.                           
+      </p>
+      <span class="shop-item-price">€18 - €20</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>
+
+<div class="shop-item">
+  <span class="shop-item-title">Skinfade/Bald fade</span>
+  <div class="shop-item-details">
+      <p>
+          Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
+      </p>
+      <span class="shop-item-price">€20 - €24</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>
+
+<div class="shop-item">
+  <span class="shop-item-title">
+      Scissors Precision cut/ Hot towel tonic  finish                     
+  </span>
+  <div class="shop-item-details">
+      <p>
+          A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
+      </p>
+      <span class="shop-item-price">€23 - €25</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>
+<div class="shop-item">
+  <span class="shop-item-title">All over Machine Buzz cut</span>
+  <div class="shop-item-details">
+      <p>
+          Machine all over, no scissors used in this service.                         
+      </p>
+      <span class="shop-item-price">€15</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>`;
+  ready();
+});
+
+// Get homeservices button and on click change to homeservices menu
+$("#homeservices-button").click(function () {
+  document.getElementById("homeservices-button").classList.add("btn-success");
+  const gents = document.getElementById("gents-button");
+  gents.classList.remove("btn-success");
+  const beard = document.getElementById("beard-button");
+  beard.classList.remove("btn-success");
+  const highlight = document.getElementById("highlight-button");
+  highlight.classList.remove("btn-success");
+  document.getElementById("shop-thing").innerHTML = `
+  <div class="shop-item">
+  <span class="shop-item-title">Regular Cut</span>
+  <div class="shop-item-details">
+      <p>
+          This service includes a consultation, followed by machine back & sides and scissors on top.                           
+      </p>
+      <span class="shop-item-price">€18 - €20</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>
+
+<div class="shop-item">
+  <span class="shop-item-title">Skinfade/Bald fade</span>
+  <div class="shop-item-details">
+      <p>
+          Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
+      </p>
+      <span class="shop-item-price">€20 - €24</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>
+
+<div class="shop-item">
+  <span class="shop-item-title">
+      Scissors Precision cut/ Hot towel tonic  finish                     
+  </span>
+  <div class="shop-item-details">
+      <p>
+          A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
+      </p>
+      <span class="shop-item-price">€23 - €25</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>
+<div class="shop-item">
+  <span class="shop-item-title">All over Machine Buzz cut</span>
+  <div class="shop-item-details">
+      <p>
+          Machine all over, no scissors used in this service.                         
+      </p>
+      <span class="shop-item-price">€15</span>
+      <button class="btn btn-primary shop-item-button" type="button">
+          Add to cart
+      </button>
+  </div>
+</div>`;
+  ready();
+});
+
+// Get gents button and on click change back to gents menu
+$("#gents-button").click(function () {
+  document.getElementById("gents-button").classList.add("btn-success");
+  const highlight = document.getElementById("highlight-button");
+  highlight.classList.remove("btn-success");
+  const beard = document.getElementById("beard-button");
+  beard.classList.remove("btn-success");
+  const homeservices = document.getElementById("homeservices-button");
+  homeservices.classList.remove("btn-success");
+  document.getElementById("shop-thing").innerHTML = `
+  <div class="shop-item">
+                    <span class="shop-item-title">Regular Cut</span>
+                    <div class="shop-item-details">
+                        <p>
+                            This service includes a consultation, followed by machine back & sides and scissors on top.                           
+                        </p>
+                        <span class="shop-item-price">€18 - €20</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Skinfade/Bald fade</span>
+                    <div class="shop-item-details">
+                        <p>
+                            Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
+                        </p>
+                        <span class="shop-item-price">€20 - €24</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">
+                        Scissors Precision cut/ Hot towel tonic  finish                     
+                    </span>
+                    <div class="shop-item-details">
+                        <p>
+                            A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
+                        </p>
+                        <span class="shop-item-price">€23 - €25</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">All over Machine Buzz cut</span>
+                    <div class="shop-item-details">
+                        <p>
+                            Machine all over, no scissors used in this service.                         
+                        </p>
+                        <span class="shop-item-price">€15</span>
+                        <button class="btn btn-primary shop-item-button" type="button">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>`;
+  ready();
+});
 
 
 if (document.readyState == 'loading') {
@@ -119,7 +354,7 @@ function addItemToCart(title, price) {
             <input class="cart-quantity-input" type="number" value="1">
             <button class="btn btn-danger" id="removeBtn" type="button">Remove</button>
         </div>`;
-  artRow.innerHTML = cartRowContents;
+  cartRow.innerHTML = cartRowContents;
   cartItems.append(cartRow);
   cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
   cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);      
