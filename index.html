@@ -40,22 +40,23 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <div class="toggle active" onclick="toggleMenu();"></div>
                     <ul class="navbar-nav" id="anchor-navs">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">
                                 <i class="fas fa-home"></i>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services"><i class="fas fa-cut"></i>Services</a>
+                            <a class="nav-link" onclick="toggleMenu()" href="#services"><i class="fas fa-cut"></i>Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery"><i class="fas fa-image"></i>Gallery</a>
+                            <a class="nav-link"  onclick="toggleMenu()" href="#gallery"><i class="fas fa-image"></i>Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#book"><i class="fas fa-calendar"></i>Book</a>
+                            <a class="nav-link"  onclick="toggleMenu()" href="#book"><i class="fas fa-calendar"></i>Book</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact"><i class="fas fa-id-badge"></i>Contact</a>
+                            <a class="nav-link"  onclick="toggleMenu()" href="#contact"><i class="fas fa-id-badge"></i>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -367,7 +368,7 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                 <h2 class="contact-header"><i class="fas fa-id-badge"></i>Contact</h2>
             </div>
             <div class="row" id="contact-image">
-                <img src="/assets/images/contact.jpg" alt="Barbers Tools">
+                <img src="assets/images/contact.jpg" alt="Barbers Tools">
             </div>
         </div>
          <!-- Contact header and image /-->
@@ -460,10 +461,11 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
     <!-- Footer /-->   
 
 
-        <!--Scripts-->    
-    <script async src="/assets/js/menucart.js"></script>    
-    <script async src="/assets/js/navgallery.js"></script>
-    <script async src="/assets/js/sendemail.js"></script>
+        <!--Scripts--> 
+    <script async src="assets/js/menu.js"></script>       
+    <script async src="assets/js/menucart.js"></script>    
+    <script async src="assets/js/navgallery.js"></script>
+    <script async src="assets/js/sendemail.js"></script>
 </body>
 
 </html>
