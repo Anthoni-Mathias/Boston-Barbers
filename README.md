@@ -99,3 +99,9 @@
 > - Alert shown when trying to book a table without filling in all inputs.
 > - Alert shown when trying to send the contact form without filling in all inputs.
 > - A 404 page that redirect user back to index.html without having to use the browser navigation buttons.
+
+> Features out of scope for the first release:
+>
+> - The possibility to actually make the purchase from the basket.
+> - Add information about purchase, how long it will take and real time update.
+> - The possibility to see available slots to book a table function in real time.
