@@ -1,2 +1,6 @@
-# Boston-Barbers
- milestone number 2 code instittute
+# Ms2 Boston-Barbers
+
+
+---
+
+![Mockup image of the project]
