@@ -44,3 +44,18 @@
 ## Business Goals
 
 > To reach more potential custumers in the area of Douglas with our products and services to book, responsive and intuitive way for a good user experience and willingness to buy and visit the barbershop.
+
+---
+
+## User Experience 
+
+## User stories
+
+### First time Visitors Goals
+
+> 1. As a first time visitor I want to browse the services.
+> 2. As a first time visitor I want check out the opening hours.
+> 3. As a first time visitor I want to check out the location.
+> 4. As a first time visitor I want to look at the gallery.
+
+### Returning Visitor Goals
