@@ -71,3 +71,13 @@
 > 10. As a site owner I want custumers to be able to contact us with feedback or questions.
 > 11. As a site owner I want custumers to book a time for services directly on the site instead of calling.
 
+### Strategy
+
+> To align with the Business goals potential customer research has been done to answer some questions:
+>
+> - What do you most use this kind of website for?
+> - What do you do before/after using this kind of website?
+> - What makes a good experience?
+> - What do you expect when visiting this kind of website?
+
+> The result from this research is a website with only a few key functions to accomplish what the customers are looking for. A simple, not so busy site with clear steps to take to do what we want.
