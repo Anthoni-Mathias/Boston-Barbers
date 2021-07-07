@@ -33,3 +33,10 @@
 > This is My second Milestone Project at Code Institute. In this project I will create an interactive website with HTML5, CSS and JavaScript.
 
 > Boston Barbers Bar is a BaberShop with the goal to reach out the local community to showcase their style and to add possibility for costumers to book a time for hair cut or shave beard. This is reached with a neat design with only relevant features and intuitive interactivity to get a clear and good user experience.
+
+---
+
+## Project Goals
+
+> The main goal for this project is to create a well designed, structured and interactive website with key features within the scope (HTML, CSS and JavaScript) to meet the custumer needs. Structured and with the overall business goals.
+> These goals will align with the overall business goals.
