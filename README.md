@@ -59,3 +59,15 @@
 > 4. As a first time visitor I want to look at the gallery.
 
 ### Returning Visitor Goals
+
+> 5. As a returning visitor I want to book a time.
+> 6. As a returning visitor I want to make a purchase for haircut.
+> 7. As a returning visitor I want to be able to contact the barbershop with questions and/or feedback.
+
+### Site Owner Goals
+
+> 8. As a site owner I want to expose the barbershop to the local community.
+> 9. As a site owner I want to expose our services and buy options in an intuitive way.
+> 10. As a site owner I want custumers to be able to contact us with feedback or questions.
+> 11. As a site owner I want custumers to book a time for services directly on the site instead of calling.
+
