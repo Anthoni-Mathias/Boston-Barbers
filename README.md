@@ -81,3 +81,21 @@
 > - What do you expect when visiting this kind of website?
 
 > The result from this research is a website with only a few key functions to accomplish what the customers are looking for. A simple, not so busy site with clear steps to take to do what we want.
+
+### Scope
+
+> Features in scope for the first release:
+>
+> - Navigation Scroll to function.
+> - Interactive Services to view only the section of your choice (Gents Haircut, Beard, Color Highlight, Call out Home Services).
+> - Add to cart function for the services.
+> - Showcase a Gallery of images in a slide show.
+> - Book a Hour function generating an email to the BarberShop.
+> - EmailJS function to the contact form.
+> - Modal showing when contact form is filled out and sent.
+> - Modal showing when book a hour form is filled out and sent.
+> - Modal showing when Purchase is clicked.
+> - Alert are shown when trying to add same item to cart more than once.
+> - Alert shown when trying to book a table without filling in all inputs.
+> - Alert shown when trying to send the contact form without filling in all inputs.
+> - A 404 page that redirect user back to index.html without having to use the browser navigation buttons.
