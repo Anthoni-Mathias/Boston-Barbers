@@ -40,3 +40,7 @@
 
 > The main goal for this project is to create a well designed, structured and interactive website with key features within the scope (HTML, CSS and JavaScript) to meet the custumer needs. Structured and with the overall business goals.
 > These goals will align with the overall business goals.
+
+## Business Goals
+
+> To reach more potential custumers in the area of Douglas with our products and services to book, responsive and intuitive way for a good user experience and willingness to buy and visit the barbershop.
