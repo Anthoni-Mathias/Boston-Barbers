@@ -201,6 +201,7 @@
  is not real and have no social media.
 > - Bad performance result while testing the site performance. Tried multiple things to try to fix this. Make images smaller, compress images and gzip compression.
 > - Noticed that bootstrap added a margin-bottom .5rem in the labels in the book a table form. Removed this to align with margin on the rest of the form.
+> - Error in the bootstrap in class row, change the line comand for new bootstrap.
 
 ---
 
