@@ -62,40 +62,12 @@ $("#highlight-button").click(function () {
   homeservices.classList.remove("btn-success");
   document.getElementById("shop-thing").innerHTML = `
   <div class="shop-item">
-  <span class="shop-item-title"> Beard Design </span>
+  <span class="shop-item-title"> Highlights Beard color </span>
   <div class="shop-item-details">
       <p>
-          Beard design will trim & moustache to your desidered look. We use cut throat razor to line the beard to ensure the best shape to suit you. Finished with product to suit your beard type.                       
+          Beard color will trim & moustache to your desidered look. We use cut throat razor to line the beard to ensure the best shape to suit you. Finished with product to suit your beard type.                       
       </p>
       <span class="shop-item-price"> €20 </span>
-      <button class="btn btn-primary shop-item-button" type="button">
-          Add to cart
-      </button>
-  </div>
-</div>
-
-<div class="shop-item">
-  <span class="shop-item-title"> Beard trim </span>
-  <div class="shop-item-details">
-      <p>
-            This service will trim & tidy your beard *this service is a regular dry beard trim*(if you wish to have "Beard Design" witch is using the cut throat razor to line around the beard & reshape - please select service "Beard Design)                  
-      </p>
-      <span class="shop-item-price"> €10 </span>
-      <button class="btn btn-primary shop-item-button" type="button">
-          Add to cart
-      </button>
-  </div>
-</div>
-
-<div class="shop-item">
-  <span class="shop-item-title">
-      Hot towel Shave                     
-  </span>
-  <div class="shop-item-details">
-      <p>
-        Your face is then prepared with a hot towel treatment, followed by the application of the shaving cream of your choice (and we have a wide range)-, whipped up into a rich lather and applied using a traditional badger hair shaving brush. One of our master barbers will then perform the shave itself.                   
-      </p>
-      <span class="shop-item-price"> €30 </span>
       <button class="btn btn-primary shop-item-button" type="button">
           Add to cart
       </button>
