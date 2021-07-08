@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -11,9 +12,9 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
@@ -26,9 +27,10 @@
         (function () {
             emailjs.init("service_ct7nmqc");
         })();
-    </script>    
-           
+    </script>
+
 </head>
+
 <body>
     <!-- NAVIGATION -->
     <header>
@@ -45,16 +47,16 @@
                                 <i class="fas fa-home"></i>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="#services"><i class="fas fa-cut"></i>Services</a>
+                            <a class="nav-link" href="#services"><i class="fas fa-cut"></i>Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"   href="#gallery"><i class="fas fa-image"></i>Gallery</a>
+                            <a class="nav-link" href="#gallery"><i class="fas fa-image"></i>Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"   href="#book"><i class="fas fa-calendar"></i>Book</a>
+                            <a class="nav-link" href="#book"><i class="fas fa-calendar"></i>Book</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"   href="#contact"><i class="fas fa-id-badge"></i>Contact</a>
+                            <a class="nav-link" href="#contact"><i class="fas fa-id-badge"></i>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -89,97 +91,100 @@
     <section id="services-section">
         <div class="container services-container">
             <div class="row">
-               <h2 class="services-header"><i class="fas fa-money-bill"></i> Services </h2>
-               <p>
+                <h2 class="services-header"><i class="fas fa-money-bill"></i> Services </h2>
+                <p>
                     We offer a unique service, a mix of classic and modern.
                     <br>
                     And with that an experience never felt.
-               </p> 
+                </p>
             </div>
-    <!-- Address, opening hours, Menu description /-->
-    <!-- Alert and Menu buttons -->        
+            <!-- Address, opening hours, Menu description /-->
+            <!-- Alert and Menu buttons -->
             <p class="alert text-center w-responsive mx-auto mb-5" id="cart-msg"></p>
         </div>
 
-    <div class="container services-choice">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-success" id="gents-button">
-                    Gents Haircut
-                </button>
-                <button type="button" class="btn" id="beard-button">
-                    Beard
-                </button>
-                <button type="button" class="btn" id="highlight-button">
-                    Color Highlight Services
-                </button>
-                <button type="button" class="btn" id="homeservices-button">
-                    Call out Home Services
-                </button>
-            </div>
-        </div>
-
-        <!-- Alert and Menu buttons /-->
-
-        <!-- Menu items -->
-        <div class="container content-section">
-            <div class="shop-items" id="shop-thing">
-                <div class="shop-item">
-                    <span class="shop-item-title">Regular Cut</span>
-                    <div class="shop-item-details">
-                        <p>
-                            This service includes a consultation, followed by machine back & sides and scissors on top.                           
-                        </p>
-                        <span class="shop-item-price">€20</span>
-                        <button class="btn btn-primary shop-item-button" type="button">
-                            Add to cart
-                        </button>
-                    </div>
-                </div>
-
-                <div class="shop-item">
-                    <span class="shop-item-title">Skinfade/Bald fade</span>
-                    <div class="shop-item-details">
-                        <p>
-                            Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
-                        </p>
-                        <span class="shop-item-price">€24</span>
-                        <button class="btn btn-primary shop-item-button" type="button">
-                            Add to cart
-                        </button>
-                    </div>
-                </div>
-
-                <div class="shop-item">
-                    <span class="shop-item-title">
-                        Scissors Precision cut/ Hot towel tonic  finish                     
-                    </span>
-                    <div class="shop-item-details">
-                        <p>
-                            A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
-                        </p>
-                        <span class="shop-item-price">€25</span>
-                        <button class="btn btn-primary shop-item-button" type="button">
-                            Add to cart
-                        </button>
-                    </div>
-                </div>
-                <div class="shop-item">
-                    <span class="shop-item-title">All over Machine Buzz cut</span>
-                    <div class="shop-item-details">
-                        <p>
-                            Machine all over, no scissors used in this service.                         
-                        </p>
-                        <span class="shop-item-price">€15</span>
-                        <button class="btn btn-primary shop-item-button" type="button">
-                            Add to cart
-                        </button>
-                    </div>
+        <div class="container services-choice">
+            <div class="row">
+                <div class="col-sm">
+                    <button type="button" class="btn btn-success" id="gents-button">
+                        Gents Haircut
+                    </button>
+                    <button type="button" class="btn" id="beard-button">
+                        Beard
+                    </button>
+                    <button type="button" class="btn" id="highlight-button">
+                        Color Highlight Services
+                    </button>
+                    <button type="button" class="btn" id="homeservices-button">
+                        Call out Home Services
+                    </button>
                 </div>
             </div>
+
+            <!-- Alert and Menu buttons /-->
+
+            <!-- Menu items -->
+            <div class="container content-section">
+                <div class="shop-items" id="shop-thing">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Regular Cut</span>
+                        <div class="shop-item-details">
+                            <p>
+                                This service includes a consultation, followed by machine back & sides and scissors on
+                                top.
+                            </p>
+                            <span class="shop-item-price">€20</span>
+                            <button class="btn btn-primary shop-item-button" type="button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="shop-item">
+                        <span class="shop-item-title">Skinfade/Bald fade</span>
+                        <div class="shop-item-details">
+                            <p>
+                                Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of
+                                forms, including the hight, mid. and low skin fade
+                            </p>
+                            <span class="shop-item-price">€24</span>
+                            <button class="btn btn-primary shop-item-button" type="button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="shop-item">
+                        <span class="shop-item-title">
+                            Scissors Precision cut/ Hot towel tonic finish
+                        </span>
+                        <div class="shop-item-details">
+                            <p>
+                                A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable
+                                scalp finished off with refreshing hot towel.
+                            </p>
+                            <span class="shop-item-price">€25</span>
+                            <button class="btn btn-primary shop-item-button" type="button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">All over Machine Buzz cut</span>
+                        <div class="shop-item-details">
+                            <p>
+                                Machine all over, no scissors used in this service.
+                            </p>
+                            <span class="shop-item-price">€15</span>
+                            <button class="btn btn-primary shop-item-button" type="button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Menu items /-->
         </div>
-        <!-- Menu items /-->    
-    </div>    
     </section>
     <!-- Menu section /-->
 
@@ -214,40 +219,40 @@
     </section>
     <!-- Cart /-->
 
-     <!-- Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org
+    <!-- Credit tofreeCodeCamp for gallery section slideshow: https://www.youtube.com/watch?v=3PHXvlpOkf4&ab_channel=freeCodeCamp.org
 https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -->
     <div id="gallery"></div>
 
     <section id="gallery-section">
-    <div class="slider-container">
-        <h2 class="gallery-header"><i class="fas fa-image"></i>Gallery</h2>
-        <div class="slide">
+        <div class="slider-container">
+            <h2 class="gallery-header"><i class="fas fa-image"></i>Gallery</h2>
+            <div class="slide">
+            </div>
+            <div class="slide">
+            </div>
+            <div class="slide">
+            </div>
+            <div class="slide">
+            </div>
+            <div class="slide">
+            </div>
+            <div class="slide">
+            </div>
         </div>
-        <div class="slide">
+        <div class="btn-container">
+            <button type="button" class="prevBtn">
+                prev
+            </button>
+            <button type="button" class="nextBtn">
+                next
+            </button>
         </div>
-        <div class="slide">
-        </div>
-        <div class="slide">
-        </div>
-        <div class="slide">
-        </div>
-        <div class="slide">
-        </div>
-    </div>
-    <div class="btn-container">
-        <button type="button" class="prevBtn">
-            prev
-        </button>
-        <button type="button" class="nextBtn">
-            next
-        </button>
-    </div>
     </section>
     <!-- Gallery Slider section /-->
 
     <!-- Book a Hour section -->
     <div id="book"></div>
-    
+
     <!-- Credit to mdbootstrap for below form: https://mdbootstrap.com/docs/b4/jquery/forms/contact/ -->
     <section id="book-section">
 
@@ -330,7 +335,7 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
             </div>
         </div>
 
-         <!-- modal when completing the form -->
+        <!-- modal when completing the form -->
         <!--Modal credit: https://www.w3schools.com/howto/howto_css_modals.asp-->
         <div class="container popUp-container" id="popUp-container">
             <div class="popUp" id="myPopUp">
@@ -355,11 +360,11 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
         </div>
         <!-- modal when completing the form /-->
     </section>
-        <!-- Book a table section /-->
-    
-        <!-- Contact header and image -->
-    <div id="contact"></div> 
-    
+    <!-- Book a table section /-->
+
+    <!-- Contact header and image -->
+    <div id="contact"></div>
+
     <section id="contact-section">
         <div class="container" id="contact-container">
             <div class="row">
@@ -369,9 +374,9 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                 <img src="assets/images/contact.jpg" alt="Barbers Tools">
             </div>
         </div>
-         <!-- Contact header and image /-->
+        <!-- Contact header and image /-->
 
-         <!-- Contact information and contact Form -->
+        <!-- Contact information and contact Form -->
 
         <p class="text-center w-responsive mx-auto mb5">
             Do you have any questions? Please do not hesitate to
@@ -431,13 +436,13 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
                 </div>
             </div>
         </div>
-        
+
     </section>
     <!-- Modal after completing the form /-->
 
-    <!-- Footer -->   
-     <!--Credit to MDbootstrap for footer: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
-     <footer class="text-center text-white">
+    <!-- Footer -->
+    <!--Credit to MDbootstrap for footer: https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+    <footer class="text-center text-white">
         <div class="container p-4 pb-0">
             <div class="mb-4">
                 <a class="btn btn-primary m-1 facebook" href="https://www.facebook.com" target="_blank" rel="noopener"
@@ -456,12 +461,14 @@ https://github.com/john-smilga/javascript-basic-projects/tree/master/15-slider -
             <p>Phone Number: +353 87 384 1224</p>
         </div>
     </footer>
-    <!-- Footer /-->   
+    <!-- Footer /-->
 
 
     <!--Scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>          
-    <script async src="assets/js/menucart.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script async src="assets/js/menucart.js"></script>
     <script async src="assets/js/navgallery.js"></script>
     <script async src="assets/js/sendemail.js"></script>
 </body>
