@@ -87,12 +87,12 @@ $("#homeservices-button").click(function () {
   highlight.classList.remove("btn-success");
   document.getElementById("shop-thing").innerHTML = `
   <div class="shop-item">
-  <span class="shop-item-title">Regular Cut</span>
+  <span class="shop-item-title"> Home Regular Cut</span>
   <div class="shop-item-details">
       <p>
           This service includes a consultation, followed by machine back & sides and scissors on top.                           
       </p>
-      <span class="shop-item-price">€18 - €20</span>
+      <span class="shop-item-price"> €25 </span>
       <button class="btn btn-primary shop-item-button" type="button">
           Add to cart
       </button>
@@ -100,12 +100,12 @@ $("#homeservices-button").click(function () {
 </div>
 
 <div class="shop-item">
-  <span class="shop-item-title">Skinfade/Bald fade</span>
+  <span class="shop-item-title">Home Skinfade/Bald fade</span>
   <div class="shop-item-details">
       <p>
           Also know as a bald fade or zero fade, the skin fade haircut comes in a variety of forms, including the hight, mid. and low skin fade                       
       </p>
-      <span class="shop-item-price">€20 - €24</span>
+      <span class="shop-item-price"> €30 </span>
       <button class="btn btn-primary shop-item-button" type="button">
           Add to cart
       </button>
@@ -114,13 +114,13 @@ $("#homeservices-button").click(function () {
 
 <div class="shop-item">
   <span class="shop-item-title">
-      Scissors Precision cut/ Hot towel tonic  finish                     
+      Home Scissors Precision cut/ Hot towel tonic  finish                     
   </span>
   <div class="shop-item-details">
       <p>
           A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
       </p>
-      <span class="shop-item-price">€23 - €25</span>
+      <span class="shop-item-price"> €35 </span>
       <button class="btn btn-primary shop-item-button" type="button">
           Add to cart
       </button>
@@ -130,9 +130,9 @@ $("#homeservices-button").click(function () {
   <span class="shop-item-title">All over Machine Buzz cut</span>
   <div class="shop-item-details">
       <p>
-          Machine all over, no scissors used in this service.                         
+         Home Machine all over, no scissors used in this service.                         
       </p>
-      <span class="shop-item-price">€15</span>
+      <span class="shop-item-price"> €20 </span>
       <button class="btn btn-primary shop-item-button" type="button">
           Add to cart
       </button>
