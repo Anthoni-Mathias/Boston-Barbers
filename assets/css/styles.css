@@ -382,7 +382,7 @@ p {
 .prevBtn,
 .nextBtn {
   background: transparent;
-  border-color: none;
+  border-color: whitesmoke;
   font-size: 1.75rem;
   cursor: pointer;
   margin: 0 0.25rem;
