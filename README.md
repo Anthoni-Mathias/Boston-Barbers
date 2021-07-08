@@ -195,7 +195,14 @@ The w3c Markup Validator, w3C CSS Validator Services and Jshint were used to val
 
 > - W3C Markup Validator - [Link](https://validator.w3.org/nu/) to the tool. [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/testing/markup-validator.PNG) to the result. To perform the test pasti in the HTML code in the tool.
 > - W3C CSS Validator - [Link]((https://jigsaw.w3.org/css-validator/validator.html.en) to the tool. [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/testing/W3C-css-validator.JPG) to the result. To perform the test paste in the CSS code in the toll.
-> - Jshint - [Link](https://jshint.com/) to the toll.
+> - Jshint - [Link](https://jshint.com/) to the toll. [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/testing/Jshint-test-menu-cart.PNG) to the result. To perform the test paste in the JavaScript code in the tool.
+
+Tools to test Performace, Accessibility, Best Practices and SEO.
+
+> - Web.dev/measure [Link](https://web.dev/measure/) to the tool. [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/testing/perfomace-test.PNG) to the result. To performe the test paste in the URL for the website in the tool.
+> - Web accessibility evaluation tool [Link](https://wave.webaim.org/). [Link]()
+
+
 ### Bugs found and fixed during development:
 
 > - scrollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
