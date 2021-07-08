@@ -127,6 +127,9 @@
 
 ## Wirefrimes
 
+- Wireframe for desktop [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/wireframes/wireframe-desk.png)
+- Wireframe for mobile [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/wireframes/wireframe-phone.png)
+
 ---
 
 ## Technologies Used
