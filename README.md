@@ -191,6 +191,17 @@
 
 ## Testing
 
+### Bugs found and fixed during development:
+
+> - scrollIntoView function scrolled too far due fixed navbar. Fixed by creating a div above the section to scroll to instead.
+> - Sometimes when trying to add items to cart twice you are too far scrolled down to see the alert. This issue was fixed to always scrollIntoView to the alert when this happens.
+> - On mobile size screens its easy to be to far scrolled down on the page to see the alerts when not filling out the forms correctly. This was fixed to scrollIntoView to alert section when this happens. This only applies to screens with max-width of 570px.
+> - On Tablet size one item in Drinks menu is centralized instead of aligning with the rest of the items. This bug is left unfixed.
+> - Social media links takes you to main page of social media platform. This is because the barbershop
+ is not real and have no social media.
+> - Bad performance result while testing the site performance. Tried multiple things to try to fix this. Make images smaller, compress images and gzip compression.
+> - Noticed that bootstrap added a margin-bottom .5rem in the labels in the book a table form. Removed this to align with margin on the rest of the form.
+
 ---
 
 ## Deployment
