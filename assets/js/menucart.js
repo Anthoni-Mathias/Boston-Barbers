@@ -39,7 +39,7 @@ $("#beard-button").click(function () {
   </span>
   <div class="shop-item-details">
       <p>
-        Your face is then prepared with a hot towel treatment, followed by the application of the shaving cream of your choice (and we have a wide range)-, whipped up into a rich lather and applied using a traditional badger hair shaving brush. One of our master barbers will then perform the shave itself.                   
+        Your face is then prepared with a hot towel treatment, followed by the application of the shaving cream of your choice (and we have a wide range).                  
       </p>
       <span class="shop-item-price"> €30 </span>
       <button class="btn btn-primary shop-item-button" type="button">
