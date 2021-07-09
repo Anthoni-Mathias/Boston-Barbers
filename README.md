@@ -19,7 +19,7 @@
     4. [Structure](#structure)
     5. [Skeleton](#skeleton)
     6. [Surface](#surface)
-5. [Wireframe](#wireframes)
+5. [Wireframes](#wireframes)
 6. [Technologies Used](#tecnologies-used)
 7. [Testing](#testing)
 8. [Deployment](#deployment)
