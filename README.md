@@ -20,7 +20,7 @@
     5. [Skeleton](#skeleton)
     6. [Surface](#surface)
 5. [Wireframes](#wireframes)
-6. [Technologies Used](#tecnologies-used)
+6. [Technologies Used](#technologies-used)
 7. [Testing](#testing)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
@@ -125,7 +125,7 @@
 > - A cursive Akaya Telivigala is used for title/name of the restaurant to stand out.
 > - The order of the content is based on what i think is expected from a website like this.
 
-## Wirefrimes
+## Wireframes
 
 - Wireframe for desktop [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/wireframes/wireframe-desk.png)
 - Wireframe for mobile [Link](https://github.com/Anthoni-Mathias/Boston-Barbers/blob/main/assets/docs/wireframes/wireframe-phone.png)
