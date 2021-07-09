@@ -111,21 +111,6 @@ $("#homeservices-button").click(function () {
       </button>
   </div>
 </div>
-
-<div class="shop-item">
-  <span class="shop-item-title">
-      Home Scissors Precision cut/ Hot towel tonic  finish                     
-  </span>
-  <div class="shop-item-details">
-      <p>
-          A Precision cut, cut and an intensive scalp treatment to stimulate dry and irritable scalp finished off with refreshing hot towel.                        
-      </p>
-      <span class="shop-item-price"> €35 </span>
-      <button class="btn btn-primary shop-item-button" type="button">
-          Add to cart
-      </button>
-  </div>
-</div>
 <div class="shop-item">
   <span class="shop-item-title">All over Machine Buzz cut</span>
   <div class="shop-item-details">
